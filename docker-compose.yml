@@ -1,0 +1,6 @@
+﻿services:
+  suspendjob:
+    image: suspendjob
+    build:
+      context: .
+      dockerfile: SuspendJob/Dockerfile
